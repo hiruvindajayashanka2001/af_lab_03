@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <h2>Java Script Callback</h2>
+        <h2>JavaScript Callback Demo</h2>
     </body>
     <script>
         function greeting(name) {
-            alert(`Hello, ${name}`);
+            alert(`Hi ${name}, nice to meet you!`);
         }
 
         function processUserInput(callback) {
-            const name = prompt("Please enter your name.");
+            const name = prompt("Enter your name here:");
             callback(name);
         }
 
